@@ -1,0 +1,263 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Host</title>
+    <link rel="stylesheet" href="./../styles/navbar.css">
+
+    <style>
+        *{
+            font-family: 'Lato',sans-serif;
+            
+        }
+        #smaller1{
+            width: 50%;
+            margin: auto;
+            margin-top: 30px;
+        }
+        h1{
+            padding: 5px;
+            margin: 0px;
+            font-weight: 400;
+        }
+        #form1{
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 20px;
+            grid-gap: 20px;
+            border: 1px solid grey;
+            font-size: 100%;
+            font-weight: 400;
+            font-size: 13px;
+            color: #666;
+            padding: 5%;
+        }
+        /* input{
+            border-radius: 0%;
+            height: 20px;
+            border: 1px solid #666;
+        } */
+        #fill{
+            height: 20px;
+            border-radius: 0px;
+            border: 1px solid #666;
+        }
+
+        #select{
+            border-radius: 0%;
+            border-radius: 0px;
+            border: 1px solid #666;
+        }
+
+        #choices{
+            margin: 0px;
+        }
+        #options{
+            list-style:none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;          
+        }
+        #options>div{
+            margin-bottom: 0px;
+            padding-top: 3px;
+        }
+        #heading{
+            font-size: small;
+        }
+       
+        #next{
+            width: 250px;
+            height: 45px;
+            border-radius: 0px;
+            background-color: #f7802f;
+            color: white;
+            border:none;
+            margin-top: 15px;
+            margin-left: 60%;
+        }
+
+        #fill{
+            font-family: 'Lato',sans-serif;
+        }
+
+        #form2{
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-rows: 20px 20px 20px 100px;
+            grid-template-columns: 1fr;
+
+            grid-gap: 20px;
+            border: 1px solid grey;
+            font-size: 100%;
+            font-weight: 400;
+            font-size: 13px;
+            color: #666;
+            padding: 5%;
+        }
+
+        #form2>input{
+            inline-size: 100%;
+            word-wrap: break-all;
+            hyphens: manual;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="bigger">
+        <div id="smaller1">
+            <h1>Property Basics</h1>
+            <div id="form1">
+            <div>What do want to list*</div>
+            <select id="select">
+                <option>Rooms Only</option>
+                <option>Entire Property</option>
+                <option>Rooms as well as Property</option>
+            </select>
+
+            <div>What is the Property type you are listing*</div>
+            <select id="select">
+                <option>Apartment</option>
+                <option>Holiday Home</option>
+                <option>Estate Stays</option>
+                <option>Jungle Stays</option>
+                <option>Farmhouse</option>
+                <option>House</option>
+                <option>Houseboat</option>
+                <option>Cottage</option>
+                <option>Heritage</option>
+                <option>Villa/Bungalow</option>
+                <option>Bed and Breakfast</option>
+                <option>Guest House</option>
+            </select>
+
+            <div>Address Line 1* </div>
+            <input id="fill" type ="text" placeholder="Address Line 1" required>
+
+            <div>Address Line 2*</div>
+            <input id="fill" type="text" placeholder="Address Line 2">
+            
+            <div>Landmark</div>
+            <input id="fill" type="text" placeholder="Landmark"> 
+
+            <div>Area</div>
+            <input id="fill" type="text" placeholder="Area">
+            
+            <div>Pincode*</div>
+            <input id="fill" type="text" placeholder="Pincode">
+            
+            <div>City*</div>
+            <input id="fill" type="text" placeholder="City">
+            
+            <div>State</div>
+            <input id="fill" type="text" placeholder="State">
+            
+            <div>Country</div>
+            <input id="fill" type="text" placeholder="India" disabled>
+            <div id="heading">Some of the basic details about your property:</div><div></div>
+            <div>Wifi</div>
+            <div style="width: 75%;">
+                <ul id="choices">
+                    <li  id="options">
+                        <input type="radio" name="wifi" value="true" /><div>Yes</div>
+                        <input type="radio" name="wifi" value="false"/><div>No</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>Breakfast</div>
+            <div style="width: 75%;">
+                <ul id="choices">
+                    <li  id="options">
+                        <input type="radio" name="breakfast" value="true" /><div>Yes</div>
+                        <input type="radio" name="breakfast" value="false"/><div>No</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>Kitchen</div>
+            <div style="width: 75%;">
+                <ul id="choices">
+                    <li  id="options">
+                        <input type="radio" name="kitchen" value="true" /><div>Yes</div>
+                        <input type="radio" name="kitchen" value="false"/><div>No</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>Parking</div>
+            <div style="width: 75%;">
+                <ul id="choices">
+                    <li  id="options">
+                        <input type="radio" name="parking" value="true" /><div>Yes</div>
+                        <input type="radio" name="parking" value="false"/><div>No</div>
+                    </li>
+                </ul>
+            </div>
+            </div> 
+            <br><br>
+            <h1>Room & Pricing</h1>
+            <div id="form1">
+                <div>Price for one adult for one night: </div>
+                <input id="fill" type ="text" placeholder="in Indian Rupees" required>
+                <div>Price for two adults for one night: </div>
+                <input id="fill" type ="text" placeholder="in Indian Rupees" required>
+            </div>
+
+            <br><br>
+            <h1>Photographs</h1>
+            <div id="form1" class="images" >
+                <div>Image 1:</div>
+                <input id="fill" type ="file" required>
+                <div>Image 2:</div>
+                <input id="fill" type ="file" required>
+                <div>Image 3:</div>
+                <input id="fill" type ="file" required>
+                <div>Image 4:</div>
+                <input id="fill" type ="file" required>
+                <div>Image 5:</div>
+                <input id="fill" type ="file" required>
+            </div>
+
+            <br><br>
+            <h1>Title & Summary</h1>
+            <div id="form2">
+                <div>Title:</div>
+                <input type="text" placeholder="Your Hotel Name">
+                <div>Summary:</div>
+                <input type="text" placeholder="Something about your property..">
+            </div>
+
+            
+
+        </div>
+
+        <div>
+            <button id="next" onclick="submitted()">Save & Continue</button>
+        </div>
+    </div>
+
+     
+    
+</body>
+</html>
+
+<script type="module">
+    import navbar from "../scripts/navbar.js";
+    
+    let div = document.createElement("div");
+    div.innerHTML = navbar();
+    document.body.prepend(div);
+</script>
+
+<script>
+    function submitted(){
+        alert("We will get back to you after varifying the details of your property.");
+        window.location.href = "./../pages/home.html";
+    }
+</script>

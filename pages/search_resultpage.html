@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search result page</title>
+    <link rel="stylesheet" href="./../styles/search_page.css">
+    <link rel="stylesheet" href="./../styles/navbar.css">
+    <link rel='stylesheet' id='simple-line-icons-css'  href='https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/themes/neori/css/simple-line-icons.css?ver=2.4.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'  href='https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-regular-css'  href='https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+</head>
+<body>
+    <div class="search_filter">
+        <p>HOTEL NAME</p>
+        <input type="text" id="input_s" oninput="seach_hotel_bar()"> </input>
+        <div id="input_scroll"></div>
+       <div class="search_btn"><i class="fas fa-search"></i></div>
+         </br>
+         <p class="hr"></p>
+        </br>
+         <p>PRICE</p>
+         <div id="check_part"> 
+            <label>
+                <input type="checkbox" id="chkPassport" value="2000"  onclick="display_filter(value)"/>
+                Rs.2,001 to Rs.4,000
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport" value="4000" onclick="display_filter(value)" />
+                Rs.4,001 to Rs.7,000
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport" value="7000" onclick="display_filter(value)" />
+                Rs.7,001 to Rs.10,000
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport" value="10000" onclick="display_filter(value)" />
+               Greater than Rs.10,000
+            </label>
+        </br>
+        <!--  <input type="checkbox" id="range1"  value="2001"> <label>Rs.2,001 to Rs.4,000</label><br>
+         <input type="checkbox" id="range2"  value="4001"> <label>Rs.4,001 to Rs.7,000</label><br> -->
+         <!-- <input type="checkbox" id="range3"  value="7001"> <label>Rs.7,001 to Rs.10,000</label><br>
+         <input type="checkbox" id="range4"  value="10001"> <label>Greater than Rs.10,001</label><br> -->
+        </div>
+        <p class="hr"></p>
+           <p>SHOW HOTELS WITH</p>
+           <div id="check_part2"> 
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Clean Pass
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Free Cancellation
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Couple Friendly 
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Quarantine And Self Isolation
+            </label>
+        </br>
+        <label>
+            <input type="checkbox" id="chkPassport"   />
+            Free WiFi 
+        </label>
+    </br>
+    <label>
+        <input type="checkbox" id="chkPassport"   />
+        Free Breakfast
+    </label>
+</br>
+<label>
+    <input type="checkbox" id="chkPassport"   />
+    Longstay Hotels
+</label>
+</br>
+       
+        </div>
+          
+           <p class="hr"></p>
+           <p>HOTEL CHAINS</p>
+           <div id="check_part2"> 
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Yatra Smart 
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Carlson Hotels
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Royal Orchid Hotels 
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="chkPassport"   />
+                Mango Hotels 
+            </label>
+        </br>
+        <label>
+            <input type="checkbox" id="chkPassport"   />
+            Panoramic Group Hotels
+        </label>
+    </br>
+    <label>
+        <input type="checkbox" id="chkPassport"   />
+        Fortune Hotels 
+    </label>
+</br>
+<label>
+    <input type="checkbox" id="chkPassport"   />
+    Ramada Plaza Hotels
+</label>
+</br>
+       
+        </div>
+    </div>
+  
+    <div class="results_display_top">
+         
+<div><h3>Navi Mumbai</h3></div>
+    
+
+<div><h4>FRI, 1 OCT - MON, 4 OCT (3 NIGHTS)  | 1 ROOM | 2 ADULTS</h4>
+    <div class="modify"><input type="button" value="Modify Search" class="modify_s"></div>
+    <div class="mod"><i class="fas fa-search"></i></div>
+</div>
+       
+      
+    </div>
+    <div class="black_tile">
+        <div class="box">ALL HOTELS(11)</br>from 3,869</div>
+        <div class="list">LIST</div>
+        <div class="map">MAP</div>
+    </div>
+    <div class="sort_bar">
+
+   <div><div>Sort by:</div><input type="button" class="sorting_btn" value="Star Ratings" onclick="func()" ></input>
+   <input type="button" class="sorting_btn2" value="Price" onclick="func2()" ></input>
+</div>  
+    </div>
+    <div id="results_display">
+       
+    </div>
+    <script src="./../scripts/search_page.js"></script>
+    <script type="module">
+        import navbar from "../scripts/navbar.js";
+        
+        let div = document.createElement("div");
+        div.innerHTML = navbar();
+        document.body.prepend(div);
+    </script>
+</body>
+</html>

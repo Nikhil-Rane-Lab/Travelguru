@@ -1,0 +1,193 @@
+#main_div {
+  /* background-color: blue; */
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: 90%;
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+body {
+  letter-spacing: normal;
+  background-color: #f5f5f5;
+  /*   background-color: black; */
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #666666;
+}
+.checkbox_red {
+  background-color: red;
+  color: white;
+}
+input[type="checkbox" i] {
+  background-color: red;
+  color: white;
+}
+
+#email_m {
+  display: inline;
+  height: 10px;
+  color: red;
+  visibility: hidden;
+}
+#password_m {
+  display: inline;
+  height: 10px;
+  color: red;
+  visibility: hidden;
+}
+#login_false_m {
+  display: inline;
+  height: 10px;
+  color: red;
+  visibility: hidden;
+}
+#login_m {
+  display: inline;
+  height: 10px;
+  color: red;
+  visibility: hidden;
+}
+#password_missmatch_m {
+  display: inline;
+  height: 10px;
+  color: red;
+  visibility: hidden;
+}
+
+.box {
+  border-color: #d3dbe4;
+  box-shadow: none;
+  border: 1px solid #d3dbe4;
+  border-radius: 4px;
+  height: 10px;
+  width: 90%;
+  padding: 10px;
+}
+#main_div div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+}
+/* #main_div div:nth-child(1) {
+    background-color: white;
+    width: 40%;
+    height: 90%;
+  }
+  */
+#main_div div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+  height: 100%;
+}
+
+.p1 {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 10%;
+  width: 30%;
+  height: 75%;
+
+  margin: 3%;
+
+  padding: 4%;
+  display: flex;
+  word-wrap: normal;
+  flex-direction: column;
+}
+.buttons {
+  letter-spacing: normal;
+  height: 40px;
+  width: 30%;
+  border-radius: 5%;
+  border: 1px solid #ea2330;
+  background-color: #ea2330;
+  color: white;
+}
+.imagepart {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 47%;
+  width: 23%;
+  height: 75%;
+  margin-bottom: 5%;
+  margin: 3%;
+  padding: 4%;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://www.travelguru.com/content/tg-social/images/tghomestays.png");
+}
+/* .imagepart + div {
+    background: transparent;
+  } */
+.loginbtn {
+  letter-spacing: normal;
+  border: 1px solid white;
+  height: 30px;
+  padding: 5px 10px;
+  background: transparent;
+  color: #fcfcfc;
+}
+
+select {
+  border-color: #d3dbe4;
+  outline: none;
+  color: #666666;
+  letter-spacing: normal;
+  background-color: white;
+}
+.redirectbtn {
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: green;
+  font-size: medium;
+}
+#imagetxt {
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  display: inline !important;
+  color: white;
+  font-size: 14px;
+  /*  background-color: black; */
+  background: transparent !important;
+}
+.selector {
+  display: flex;
+}
+.f {
+  display: flex;
+}
+@media (max-width: 1026px) {
+  .imagepart {
+    display: none;
+  }
+  .p1 {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    left: 5%;
+    width: 70%;
+    height: 80%;
+    margin: 3%;
+    padding: 4%;
+
+    flex-direction: column;
+  }
+}

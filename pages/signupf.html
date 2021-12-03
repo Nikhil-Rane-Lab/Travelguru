@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="./../styles/signpart.css">
+    <link rel="stylesheet" href="./../styles/navbar.css">
+   <style>
+      
+   </style>
+</head>
+
+<body>
+<!--     <div id="main_div"> -->
+       <div class="p1">
+          <h2> Common account on Yatra & Travelguru</h2>
+          
+          <form onsubmit="signup(event)">
+            
+          <label>FIRST NAME</label>
+          </br>
+          <input type="text" class="box" id="fn" required/>
+          </br></br>
+          <label>LAST NAME</label>
+          </br>
+          <input type="text" class="box"  id="ln" required/>
+           </br></br>
+          <label>MOBILE NUMBER</label>
+         </br>
+         <div class="selector">
+         <select>
+            <option value="91">India (+91)</option>
+             <option value="256">USA (+256)</option>
+             <option value="545">Australia (+545)</option>
+             <option value="30">Greece (+30)</option>
+             <option value="39">Italy (+39)</option>
+             <option value="81">Japan (+81)</option>
+             <option value="43">Austria (+43)</option>
+             <option value="1">Canada(+1)</option>
+             <option value="39">Italy (+39)</option>
+         </select>
+          <input type="tel" class="box"  id="mn" required/>
+        </div>
+        </br>
+          <label>EMAIL ID</label>
+        </br>
+         <input type="email" class="box"  id="eid" required/>
+         <div id="email_m">Email is already registered.</div>
+        </br>
+         <label>PASSWORD</label>
+        </br>
+         <input type="password" class="box"  id="pw"  required/>
+        </br>  </br>
+         <label>CONFIRM PASSWORD</label>
+        
+        </br>
+         <input type="password" class="box" id="cpw"  required/>
+         <div id="password_missmatch_m">Password and confirmed password is a missmatch.</div>
+         </br>
+        <input type="checkbox" class="checkbox_red" value="true" checked="true"> 
+        <label>I would like to be kept informed of special promotions and offers by Travelguru.</label>
+         </br>
+        <input type="submit" class="buttons" value="Register" > 
+       
+       </form>
+     </div>
+     <div class="imagepart">
+        <div id="imagetxt">
+         <p>Already have an account on Travelguru.com</p>
+         <input type="button" class="loginbtn" onclick="loginpagego()" value="LOGIN HERE" >
+        </div>
+     <!--    <img src="https://www.travelguru.com/content/tg-social/images/tghomestays.png"> -->
+     </div>
+    <!-- </div> -->
+  
+    <script src="./../scripts/signup_part.js"></script>
+    <script type="module">
+        import navbar from "../scripts/navbar.js";
+        
+        let div = document.createElement("div");
+        div.innerHTML = navbar();
+        document.body.prepend(div);
+    </script>
+</body>
+</html>

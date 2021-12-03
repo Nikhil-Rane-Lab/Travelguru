@@ -1,0 +1,345 @@
+body {
+  letter-spacing: normal;
+  background-color: #f5f5f5;
+  /*   background-color: black; */
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #666666;
+  margin: 0px;
+  padding: 0px;
+}
+.search_filter {
+  color: black;
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-top: 2%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 5%;
+  width: 20%;
+  height: auto;
+  padding: 1%;
+  top: 6%;
+  word-wrap: normal;
+  flex-direction: column;
+}
+.results_display_top {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  top: 14%;
+  position: absolute;
+  display: flex;
+  left: 43%;
+  width: 50%;
+  height: 10%;
+  margin-bottom: 5%;
+}
+#results_display {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  top: 29%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0%;
+  left: 26%;
+  width: 75%;
+  height: 75%;
+}
+.sort_bar {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  top: 27%;
+  position: absolute;
+  display: flex;
+  left: 28%;
+  flex-direction: column;
+  /*  background-color: pink; */
+  height: 10px;
+  width: 70%;
+}
+.black_tile {
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  top: 20%;
+  position: absolute;
+  display: flex;
+  left: 28%;
+
+  background-color: black;
+  height: 45px;
+  width: 67%;
+}
+.sort_bar div {
+  display: inline;
+}
+#m {
+  display: flex;
+  height: 110%;
+  width: 100%;
+  margin: 2%;
+  background-color: white;
+  flex-direction: column;
+}
+#img_hotel {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+#each_detail {
+  position: absolute;
+  display: flex;
+  left: 40%;
+  height: auto;
+  width: auto;
+}
+#each_div {
+  height: 40%;
+  width: 90%;
+  padding: 2%;
+}
+#check {
+  color: black;
+}
+#check_part {
+  color: black;
+  font-size: normal;
+  display: inline;
+}
+#check_part2 {
+  color: black;
+  font-size: normal;
+  display: inline;
+}
+/* hr {
+  display: block;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  height: 2px;
+  width: 100%;
+}
+ */
+.h_name {
+  padding-top: 3%;
+
+  font-size: 16px;
+  display: flex;
+  color: black;
+}
+#mm_d {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 40%;
+  padding-top: 1%;
+  margin: 2%;
+  font-size: small;
+}
+#mm_div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 40%;
+
+  padding-top: 1%;
+
+  font-size: small;
+}
+/* #extra_feat {
+  position: absolute;
+  display: flex;
+  left: -120%;
+  padding-top: 2%;
+  font-size: small;
+}
+ */
+#f_div {
+  display: inline;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  font-size: small;
+}
+#rating_css {
+  margin-top: 1%;
+
+  position: absolute;
+  display: flex;
+
+  flex-direction: column;
+  left: 77%;
+}
+#button_booking {
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+  background: #55961c;
+  border: 1px solid #55961c;
+  color: #fff;
+}
+.sorting_btn {
+  position: absolute;
+  left: 30%;
+  width: 10%;
+  color: #666666;
+  background-color: transparent;
+  border-color: transparent;
+}
+.sorting_btn2 {
+  position: absolute;
+  left: 80%;
+  width: 10%;
+  color: #666666;
+  background-color: transparent;
+  border-color: transparent;
+}
+.search_btn {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+.star_color {
+  color: #f34f4f;
+}
+.l_name {
+  color: #4ea5df;
+}
+#color_b {
+  font-size: larger;
+  color: #4ea5df;
+}
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.price_disp {
+  font-size: larger;
+}
+/* i {
+  color: #666666;
+} */
+#input_scroll {
+  visibility: hidden;
+  border: 1px solid black;
+  border-top: none;
+
+  letter-spacing: normal;
+  font-family: "Lato Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 5%;
+  top: 7%;
+  width: 88%;
+  height: auto;
+  padding: 1%;
+  border-left: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+
+  overflow-y: scroll;
+  cursor: pointer;
+  word-wrap: normal;
+  flex-direction: column;
+}
+.each_hotel_result_s {
+  border-bottom: 1px solid #e2e2e2;
+}
+.hr {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  border-bottom: 1px solid #e2e2e2;
+}
+.list {
+  position: absolute;
+  left: 87%;
+  top: 20%;
+  width: 50px;
+  height: 27px;
+  border-radius: 2px;
+  align-content: center;
+  font-size: 15px !important;
+  background-color: #f2f2f2;
+  color: #666666;
+
+  text-align: center;
+}
+.map {
+  border-left: 2px solid #666666;
+  position: absolute;
+  left: 92%;
+  top: 20%;
+  align-content: center;
+  text-align: center;
+  font-size: 15px !important;
+  width: 50px;
+  height: 27px;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  color: #4ea5df;
+}
+.box {
+  position: absolute;
+  left: 4%;
+  top: -10%;
+  border-top: 4px solid green;
+  width: 200px;
+  height: 45px;
+  background-color: #f2f2f2;
+  color: #666666;
+  align-content: center;
+  text-align: center;
+  font-size: larger;
+}
+.modify {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  height: 40px;
+  width: 200px;
+  background-color: #f2f2f2;
+  color: #666666;
+  align-content: center;
+  text-align: center;
+  font-size: larger;
+}
+.modify_s {
+  position: absolute;
+  left: 50%;
+  top: -3%;
+  height: 30px;
+  width: 120px;
+  background-color: #f2f2f2;
+  color: #666666 !important;
+  border: 1px solid #bfbfbf;
+  align-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+.mod {
+  position: absolute;
+  left: 85%;
+  top: 23%;
+  height: 30px;
+  width: 20px;
+  background-color: transparent;
+  color: #666666 !important;
+
+  align-content: center;
+  text-align: center;
+  font-size: 12px;
+}

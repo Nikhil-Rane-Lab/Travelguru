@@ -1,0 +1,122 @@
+#b1{
+    height: 330px; width: 300px;
+}
+
+#b2{
+    padding: 8px; padding-bottom: 0px; border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+#b2b{
+    padding: 8px; padding-bottom: 0px; font-size: 15px;
+}
+
+#b3{
+    float: left; padding-left: 8px ; padding-top: 5px; height: 25px ;width: 30px; 
+}
+
+#b4{
+    float: left ;padding-top: 5px; 
+}
+
+#b5{
+    padding-left: 8px ; padding-top: 5px; font-size: 12px; height: 25px; 
+}
+
+#b6{
+    width: 300px; height: 300px;
+}   
+
+#b7{
+    height: 25px; width: 291px; padding-left: 8px; border-bottom: 1px solid rgb(218, 218, 218);;
+}   
+
+#b8{
+    height: 35px; width: 300px; 
+}    
+
+#b9{
+    float: right; height: 25px; width:165px;  font-size: 14px; padding-left: 8px; padding-top: 5px;
+}   
+
+#b11{
+    height:24px;width:50px; padding-top: 1px;
+}
+
+#b12{
+    height:24px;width:125px; padding-top: 1px;
+}
+
+#b13{
+    height:24px;width:25px; padding-top: 1px;
+}
+
+#b17{
+    height:24px;width:80px; padding-top: 1px;
+}
+
+#b14{
+    height:24px;width:2px; padding-top: 1px;
+}
+
+#entirecomment{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 80px;
+}
+
+#superSide{
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+#next{
+    width: 300px; height: 235px; padding-top:10px;
+}
+
+#circle1{
+    color: #2ea72b; font-size: 15px;
+}
+
+#circle_cont
+{
+    float: left; height: 20px; width:150px; padding-top: 5px; padding: 10px;
+}
+
+.co1{
+    float: left; height: 25px; width:100px; font-size: 14px; padding-left: 8px; padding-top: 10px;
+}
+
+#superComment{
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+}
+
+#comment{
+    height: fit-content; width:700px; padding: 0px; border: 1px solid rgb(211, 211, 211);
+}
+
+#a1{
+    float: left; padding-top: 2px; height: 40px; background-color: white; border: 0px; font-size: 14px; font-weight: 700; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#a2{
+    float: left; padding-top: 2px; height: 15px; font-size: 11px; background-color: white; border: 0px; color: #999999;
+}
+
+#a3{
+    padding: 10px; font-size: 14px; background-color: white; border: 0px; color: #333333;
+}
+
+#circle
+{
+    color: #2ea72b; font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}

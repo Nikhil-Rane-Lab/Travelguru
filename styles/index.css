@@ -1,0 +1,448 @@
+.fa {
+padding: 10px;
+font-size: 15px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.checked {
+color: orangered;
+}
+
+#Customer_Reviews{
+    margin-left: 50px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#a1{
+    float: left ;width: 275px; height: 120px; 
+}
+
+#a2{
+    float: left ;height: 120px; width: 120px; border-radius: 50%; border: 0px ;font-size: 45px; background-color:#c9c9c9;
+}
+
+#a3{
+    float:left ;height: 120px; width: 15px;
+}
+
+#a4{
+    font-size: 15px; font-weight: 400; padding-top: 10px; padding-right: 5px; font-family: sans-serif;
+}
+
+#a5{
+    float: left ;width: 800px; height: 120px; background-color: #ececec;
+}
+
+#a6a{
+    float:left ;height: 120px; width: 30px;  background-color: #ececec;
+}
+
+#a6b{
+    float:left ;height: 120px; width: 30px;  background-color: #ececec;
+}
+
+#a6c{
+    float:left ;height: 120px; width: 30px;
+}
+
+#a7{
+    font-size: 14px; font-weight: 200; line-height: 25px; color: #333333; font-family: sans-serif; padding-top: 8px;
+}
+
+#a8{
+    clear: both; 
+}
+
+.clear
+{
+    clear: both;
+}
+
+#a4a
+{
+    margin-top: 10px;
+}
+
+#pros
+{
+    margin-left: 100px;
+}
+
+#b1{
+    float: left; width: 300px; height:150px; 
+}
+
+#small
+{
+    float: left; width: 50px; height:150px;
+}
+
+#b2{
+    font-size: 19px; line-height: 26px; color: #2e2e2e; font-weight: 450; font-family: sans-serif; margin-bottom: 8px;
+}
+
+#b3{
+    font-size: 15px; line-height: 24px; color: #737373; font-weight: 800;
+}
+
+a
+{
+    text-decoration: none; color: black; font-size: 13px;
+}
+
+.c1{
+    float: left; margin-left: 100px; color: black; font-weight: bolder; font-size: 14px; line-height: 14px; margin-bottom: -30px; padding-bottom: -30px;
+}
+
+.c2{
+    width: 180px; float: left; color: black; font-weight: bolder; font-size: 14px; line-height: 14px;
+}
+
+#outermost
+{
+    height:fit-content; width: 1000px; background-color: rgba(231, 230, 230, 0.952); margin-left: 120px;
+}
+
+.wrapper
+{
+    float: left; height: 50px; width: 1000px; background-color: rgba(231, 230, 230, 0.952);
+}
+
+a
+{
+    color:#1a4073;
+}
+
+#secured{
+    float:right; margin-top: 7px;padding-right: 145px ;
+}
+
+#social
+{
+    padding-left: 200px;
+}
+
+#social2
+{
+    padding-left: 245px; 
+}
+
+#e1{
+    float: right; padding-right: 200px;
+}
+
+#ho1{
+    margin-bottom: -20px; padding-bottom: -30px
+}
+
+#social_outer
+{
+    height: fit-content; width:1280px; margin-left: 50px;
+}
+
+#star
+{
+    font-size: 18px; color: orangered
+}
+
+#cr
+{
+    font-size: 15px;
+}
+#ti
+{
+    font-size: 23px; line-height: 30px; padding-left: 40px; color: #757474; font-weight: 200; font-family: sans-serif;
+}
+
+#d1{
+    height: 60px; background-color:rgb(241, 245, 245); padding-left: 380px;
+}
+
+#d3{
+    float: left; padding-left: 50px;
+}
+
+.d4{
+    float: left; padding-top: 20px; padding-left: 20px;
+}
+
+#dd{
+    float: left; padding-top: 20px; font-weight: 500;
+}
+
+#d5{
+    float: left; padding-top: 20px;
+}
+
+.cl{
+    clear: left;
+}
+
+#small_icon
+{
+    height: 35px; width: 35px; background-color: #bb0000; border: 1px solid black; 
+}
+
+#h1{
+    margin-left: 15px; font-weight: bold; font-size: 14px; line-height: 14px; margin-bottom: 0px; border-top: 0px;
+}
+
+#h2{
+    margin-left: 10px ;float: left;
+}
+
+#h2b{
+    float: right; margin-right: 30px;
+}
+
+#h3{
+    margin-left: 15px; font-size:12px; line-height: 18px; font-family: sans-serif; font-weight: 300;
+}
+
+#h4{
+    margin-left: 15px; font-size: 12px; margin-top: -10px; font-size:12px; line-height: 18px; font-weight: 200;
+}
+
+#h5{
+    float: left ; width: 12px; height:35px;
+}
+
+#h6{
+    float: left ; width: 25px; height:35px; text-align: center; font-size: 25px; font-weight: bolder ;background-color: white; border: 1px solid black;
+}
+
+#display1{
+    float: left ; width: 25px; height:35px;  text-align: center; font-size: 25px; font-weight: bolder ; background-color: white;  border: 1px solid black;
+}
+
+#display2{
+    float: left ; width: 25px; height:35px;  text-align: center; font-size: 25px; font-weight: bolder ; background-color: white;  border: 1px solid black;
+}
+
+#ss1{
+    font-weight: 600; font-size: 15px;
+}
+
+#h7{
+    float: left ; width: 25px; height:35px;  text-align: center; font-size: 25px; font-weight: bolder ; background-color: white;  border: 1px solid black;
+}
+
+.triangle-up 
+{
+    float: right;  width: 0; height: 0; border-left: 22px solid transparent; border-right: 22px solid transparent; border-bottom: 25px solid white;
+}
+
+#ph1{
+    float: right; height: 230px; width: 70px; 
+}
+
+#tgl{
+    height: 25px; padding-right: 150px; visibility:hidden;
+}
+
+#h11{
+    visibility:hidden ; float: right; height: 215px; width: 280px; background-color: white; border-top: 0px; border-left: 1px solid black; border-right: 1px solid black;border-bottom: 1px solid black;
+}
+
+#btn{
+    height: 30px; margin-left: 22px; width: 230px; border: 0px ;background-color: #2a9fff; color: white; font-weight: 400;
+}
+
+#search{
+    float: right; font-size: 35px; color: white; padding-right: 25px; padding-top: 5px;
+}
+
+#s1{
+    float: left; height: 45px; width: 150px; background-color: white; padding-left: 5px;
+}
+
+#s2{
+    float: left; height: 45px; width: 80px; background-color: red;
+}
+
+#s3{
+    color: white;
+}
+
+#banner{
+    height: 450px; background-color: yellowgreen; background-image: url("../Images/edibanner.png");
+}
+
+#z1a{
+    height: fit-content; background-color: yellowgreen;
+}
+
+#z2{
+    height: 80px; width: 1100px; padding-top: 80px; margin-left: 80px;
+}
+
+#z3{
+    height: 70px; width: 1100px; background-color: black; padding-top: 25px; margin-left: 80px;
+}
+
+#z3a{
+    float: right; height: 70px; width: 1100px; background-color: black; padding-top: 25px; margin-left: 80px;
+}
+
+#z4{
+    float: left;width: fit-content; height:fit-content; margin-left: 50px;background-color: #ffffff; border: 1px solid black;
+}
+
+#z5{
+    height: 35px; width: 280px; margin-left: 10px; border:0px;
+}
+
+#z6{
+    color: black;background-color: white;
+}
+
+#z7{
+    float: left;width: fit-content; height:fit-content; background-color: #ffffff; border: 1px solid black;
+}
+
+#z8{
+    width: 200px; height: 40px;
+}
+
+#z9{
+    float: left;width: fit-content; height:fit-content; background-color: #ffffff; border: 1px solid black;
+}
+
+#z9a{
+    float: left; margin-left: 50px ;width: fit-content; height:fit-content; background-color: #ffffff; border: 1px solid black;
+}
+
+#z10{
+    width: 200px; height: 40px;
+}
+
+#z11{
+    margin-left: 30px; font-size:10px; line-height: 18px;  font-weight: 600; text-decoration: none; color: black;
+}
+
+#ser1{
+    float: left ; width: 80px; height: 50px ;color: white; padding-top: 32px;margin-bottom: 0px; font-size: 13px; font-weight: 600;
+}
+
+#ser2{
+    float: left ; width: 110px; height: 50px ;color: white; padding-top: 32px;margin-bottom: 0px; font-size: 13px; font-weight: 600;
+}
+
+#no_clk{
+    text-decoration: none; 
+}
+
+#div1{
+    height: 200px; width: 650px; background-color: yellow;
+}
+
+#div11{
+    float: left; margin-top: 15px; width: 250px;
+}
+
+#div11a{
+    float: left; margin-top: 15px; width: 250px; margin-left: 50px;
+}
+
+#last{
+    float: left; margin-top: 15px; width: 150px; margin-left: 50px; background-color: green; height: 50px; color: white; font-weight: bold; font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bold{
+    font-weight: bolder;
+}
+
+#bold1{
+    font-weight: bolder; font-weight: 22px;
+}
+
+#div2{
+    float: left;
+}
+
+#div3{
+    float: left;
+}
+
+#mar{
+    margin-top: 5px;
+}
+
+#wrap1{
+    width:200px; height: 90px; float: left; 
+}
+
+
+
+#div3a{
+    float: left; font-weight: bolder; font-size: 28px;
+}
+
+#titleq{
+    font-size: 18px; font-weight: bolder;
+}
+
+#entireBook{
+    margin-left: 130px;
+}
+
+#checkk{
+    margin-top: 29px; height: 32px; width: fit-content; color: white;; background-color: green; font-weight: bolder;
+}
+
+#cin{
+    margin-bottom: 5px; font-weight: lighter; color: #aaa3a3;
+}
+
+#din{
+    height: 35px; width: 180px;
+}
+
+#home{
+    background-color: rgba(250, 250, 250, 0.952);
+}
+
+#BookorNot{
+    margin-left: 132px;
+}

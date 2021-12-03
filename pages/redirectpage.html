@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin page</title>
+    <link rel="stylesheet" href="./../styles/signpart.css">
+    <link rel="stylesheet" href="./../styles/navbar.css">
+ 
+</head>
+
+<body>
+   <!--  <div id="main_div"> -->
+       <div class="p1">
+          <h2> Congratulations registration successful</h2>
+           <h2>Click here to redirect to homepage</h2>
+           <input type="button" class="redirectbtn" onclick="pagego()"  value="Redirect Now" >
+     </div>
+     <div class="imagepart">
+      <!--   <div id="imagetxt">
+            <p>Don't have an account?</p>
+            <input type="button" class="loginbtn" onclick="signinpagego()"  value="Register Now!" >
+           </div> -->
+        </br>
+        
+        
+   
+     </div>
+     
+  <script>
+      function pagego(){
+          //window reloacted to index;
+          window.location=("./../pages/home.html");
+      }
+  </script>
+  <script type="module">
+    import navbar from "../scripts/navbar.js";
+    
+    let div = document.createElement("div");
+    div.innerHTML = navbar();
+    document.body.prepend(div);
+</script>
+    
+</body>
+</html>

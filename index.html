@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Customer Reviews</title>
+</head>
+<body>
+    <div id="home">
+        <div id="banner">
+            <div id="z2">
+                <a id="no_clk" href="#"><p id="ser1">HOTELS</p></a>
+                <a href="#"><p id="ser2">HOMESTAYS</p></a>
+                <a href="#"><p id="ser1">ADVENTURE</p></a>
+
+            </div>
+            <div id="z3">
+                <div id="z4">
+                    <input type="text" id="z5" placeholder="Select City, Area or Hotel..." >
+                        <i id="z6" class="fa fa-map-marker"></i>
+                </div>
+                <div id="z7">
+                    <input id="z8"  type="date" value="2018-07-22" min="2018-01-01" max="2022-12-31">
+                </div>
+                <div id="z9">
+                    <input id="z10" type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+
+                </div>
+                <div onclick="toggle()" id="s1"><p id="ss1"> 1 Person in 1 Room </p>
+                </div> 
+                <div id="s2" onclick="getData()">
+                    <a href="#"><i id="search" class="material-icons">search</i></a>
+                </div>
+                <div class="clear"></div>
+                <br>
+                <div id="tgl">
+                    <div class="triangle-up"></div>
+                </div>
+                
+                <div id="ph1" >
+
+                </div>
+
+                <div id="h11">
+                    <div>
+                        <p id="h1">Room 1:</p>
+                        <div id="h2">
+                            <p id="h3">Adults</p>
+                            <p id="h4">Above 12 years</p>
+                            <div id="h5"></div>
+            
+                            <div onclick="decrement1()" id="h6"> - </div>
+                            <div id="display1">1</div>
+                            <div onclick="increment1()" id="h7"> + </div>
+                        </div>
+
+                        <div id="h2b">
+                            <p id="h3">Children</p>
+                            <p id="h4">Below 12 years</p>
+                            <div id="h5"></div>
+            
+                            <div onclick="decrement2()" id="h6"> - </div>
+                            <div id="display2">0</div>
+                            <div onclick="increment2()" id="h7"> + </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="clear"></div>
+                    <p id="z11"><a href="#">Add a room</a></p>
+                    <hr>
+                    <button id="btn"><a id="s3" onclick="toggle()" href="#">DONE</a></button>
+    
+            
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <span id="ti">Customer Reviews</span>
+        <br><br>
+
+        <div id="Customer_Reviews">
+            <div>
+                <div id="a1">
+                    <button id="a2"> U</button>
+                    <div id="a3"></div>
+                    <p id="a4">Utkarsha Bansal 
+                    <br>
+                    <i id="star" class="material-icons">star</i>
+                    <i id="star" class="material-icons">star</i>
+                    <i id="star" class="material-icons">star</i>
+                    <i id="star" class="material-icons">star</i>
+                    <i id="star" class="material-icons">star</i>
+                </div>
+                <div id="a6c"></div>
+                <div id="a5">
+                    <div id="a6a"></div>
+                    <p id="a7">Goa on a budget ain't a myth anymore! My friends & I stayed at a gorgeous villa with a private pool & all modern comforts that too at Rs 1600 per night. Clean and tidy rooms, helpful staff & easily accessible property. I couldn't have made a better decision.</p>
+                    
+                </div>
+                <div id="a6b"></div>
+            </div>
+
+            <p class="clear"></p>
+            <br><br><br>
+
+            <div>
+                <div id="a1">
+                    <button id="a2">K</button>
+                    <div id="a3"></div>
+                    <p id="a4">Kanika Sharma <br>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                </div>
+                <div id="a6c"></div>
+                <div id="a5">
+                    <div id="a6a"></div>
+                    <p id="a7">I have been to Manali before but haven't stayed at a homestay until my friend recommended one. This beautiful cottage overlooking hills took my breath away, and my fiance's. The setting only added to our romantic experience. Thank you very much.</p>
+                    
+                </div>
+                <div id="a6b"></div>
+            </div>
+
+            <p class="clear"></p>
+            <br><br><br>
+
+            <div>
+                <div id="a1">
+                    <button id="a2">S</button>
+                    <div id="a3"></div>
+                    <p id="a4"> Surendra Patil <br>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                        <i id="star" class="material-icons">star</i>
+                </div>
+                <div id="a6c"></div>
+                <div id="a5">
+                    <div id="a6a"></div>
+                    <p id="a7">This is a late review. Travelled to Coorg 3 months back with my wife and son, and had the most amazing time in the town. Stayed amid coffee plantation at a homestay we booked through Travelguru. We had a comfortable stay and a perfect vacation.</p>
+                    
+                </div>
+                <div id="a6b"></div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <br><br><br><hr><br><br>
+
+        <div id="pros">
+            <div id="b1">
+                <h3 id="b2">Verified Homestays</h3>
+                <span id="b3">We ensure that all properties listed with us are verified thoroughly before taking live, so that you can revel in a good ambience.</span>
+            </div>
+
+            <div id="small"></div>
+
+            <div id="b1">
+                <h3 id="b2">Presence across India</h3>
+                <span id="b3">We are a growing community of homestays and have successfully carved a niche across 200+ cities in India.</span>
+            </div>
+
+            <div id="small"></div>
+            
+            <div id="b1">
+                <h3 id="b2">Diverse Listings</h3>
+                <span id="b3">Whether your idea of home is a luxury villa, a cosy cottage, a bungalow with a private pool or a jungle stay, we've hand-picked stays for every mood.</span>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <br><br>
+    
+        <div>
+            <p id="d1">
+                <span id="dd"> Our family:</span>
+                
+                <span id="d3">
+                    <img id="d5" src="https://hirist-logos.s3.ap-south-1.amazonaws.com/Amex+Login.png">
+                    <img class="d4" src="https://hirist-logos.s3.ap-south-1.amazonaws.com/Zycus+Login.png">
+                    <img class="d4" src="https://hirist-logos.s3.ap-south-1.amazonaws.com/Amazon+Login.png">
+                </span>
+            </p>
+        </div>
+
+        <div class="clear"></div>
+        <br><br> 
+
+
+        <div id="outermost">
+            <div></div>
+            <div id="outer">
+                <div class="wrapper">
+                    <p class="c2" onclick="show_1_1()">Company Information</p>
+                    <p class="c2" onclick="show_1_2()">Traveller</p>
+                    <p class="c2" onclick="show_1_3()">Offers</p>
+                    <p class="c2" onclick="show_1_4()">Customer Support</p>
+                    <p class="c2" onclick="show_1_5()">Other</p>
+                </div>
+
+                <div id="parent"></div>
+            </div>
+
+            <p class="clear"></p>
+
+            <div id="outer2">
+                <div class="wrapper">
+                    <p class="c2" onclick="show_2_1()">Must Visit Places</p>
+                    <p class="c2" onclick="show_2_2()">Spiritual Places</p>
+                    <p class="c2" onclick="show_2_3()">Hill Stations</p>
+                    <p class="c2" onclick="show_2_4()">Beaches</p>
+                    <p class="c2" onclick="show_2_5()">Wildlife</p>
+                </div>
+
+                <div id="parent2"></div>
+            </div>
+
+            <p class="clear"></p>
+
+            <div id="outer3">
+                <div class="wrapper">
+                    <p class="c2" onclick="show_3_1()">Heritage</p>
+                    <p class="c2" onclick="show_3_2()">Deserts</p>
+                    <p class="c2" onclick="show_3_3()">Solo Travel Places</p>
+                    <p class="c2" onclick="show_3_4()">Business Cities</p>
+                    <p class="c2" onclick="show_3_5()">Weekend Gateways</p>
+                </div>
+                <span class="clear"></span>
+                <div id="parent3"></div>
+            </div>
+        </div> 
+
+        <br><br><br><hr>
+
+        <div id="social_outer">
+            <p>
+                <i id="cr" class="material-icons">copyright</i>
+                2021 Travelguru, India. All Rights Reserved
+                <span id="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </span>
+                <span id="social2">
+                    Secured by
+                    <img id="secured" src="https://www.travelguru.com/travelguru/resources/beetle/images/geotrust-logo.png">
+                </span>
+            </p>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="js/index.js"></script>
+</html>

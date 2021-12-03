@@ -1,0 +1,138 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(240, 238, 238);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+    #social_outera
+{
+    height: fit-content; width:1280px; margin-left: 50px;
+}
+
+#cra
+{
+    font-size: 15px;
+}
+
+#sociala
+{
+    padding-left: 200px;
+}
+
+#social2a
+{
+    padding-left: 300px; 
+}
+
+
+#secureda{
+    float:right; margin-top: 7px;padding-right: 145px ;
+}
+
+
+#c1{
+    height: 50px; width: 800px;
+}
+
+#c2{
+    float: left; height: 50px; width: 150px; font-weight: bold; background-color: white; border: 0px;
+}
+
+#c3{
+    float: left; height: 45px; width: 200px; margin-left: 35px;
+}
+
+#c3z{
+    float: left; height: 45px; width: 550px; margin-left: 35px;
+}
+
+#c3a{
+    float: left; height: 42px; width: 200px; margin-left: 25px;
+}
+
+#c4{
+    float: left; height: 45px; width: 30px; 
+}
+
+#c4b{
+    float: left; height: 45px; width: 35px; 
+}
+
+#c5{
+    float: left; height: 50px; width: 70px; border: 1px solid black;       
+}
+
+
+#c6{
+    float: left; height: 45px; width: 250px; border: 1px solid black;       
+}
+
+#c6a{
+    float: left; height: 45px; width: 250px; border: 1px solid black;       
+}
+
+#c7{
+    margin-left: 185px; margin-top: 8px; padding-top: 0px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#getInfo{
+    height: fit-content;
+}
+
+#p1{
+    margin-left: 28px;
+}
+
+#p2{
+    margin-left: 80px;
+}
+
+#p2a{
+    margin-left: 90px;
+}
+
+#p3{
+    margin-left: 30px;
+}
+
+#payment{
+    margin-left: 160px; background-color: rgb(49, 116, 240); color: white; height:30px;
+}
+
+#payment1{
+    margin-left: 180px; background-color: green; color: white; height:30px;
+}
+
+#p4{
+    float: left;
+}
+
+#creditCard{
+    height: 250px; width:800px; display: none;
+}
+
+#mega{
+    padding: 10px; margin-left: 50px; height: fit-content; width:850px ;border: 1px solid black; background-color: white;
+}
+
+#big{
+    font-size: 20px;
+}
+
+#booked{
+    color: green; font-size: 18px; font-weight: bolder; visibility:hidden;
+}
+
+#warn{
+    color: red; font-size:15px; margin-left: 10px; margin-bottom: 15px; display: none;
+}
+
+#warn2{
+    color: red; font-size:15px; margin-left: 10px; margin-bottom: 15px; display: none;
+}
